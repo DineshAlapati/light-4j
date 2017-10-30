@@ -17,13 +17,13 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.networknt</groupId>
+    <groupId>com.github.dineshalapati</groupId>
     <artifactId>light-4j</artifactId>
     <version>1.5.0</version>
     <packaging>pom</packaging>
     <name>Parent POM</name>
     <description>Light 4J Framework Components</description>
-    <url>https://github.com/networknt/light-4j</url>
+    <url>https://github.com/dineshalapati/light-4j</url>
 
     <developers>
         <developer>
@@ -35,7 +35,7 @@
 
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/networknt/light-4j/issues</url>
+        <url>https://github.com/dineshalapati/light-4j/issues</url>
     </issueManagement>
 
     <licenses>
@@ -48,8 +48,8 @@
 
     <scm>
         <connection>scm:git://github.com:networknt/light-4j.git</connection>
-        <developerConnection>scm:git://github.com:networknt/light-4j.git</developerConnection>
-        <url>https://github.com:networknt/light-4j.git</url>
+        <developerConnection>scm:git://github.com:dineshalapati/light-4j.git</developerConnection>
+        <url>https://github.com:dineshalapati/light-4j.git</url>
     </scm>
 
     <distributionManagement>
@@ -129,151 +129,151 @@
         <dependencies>
             <!-- Modules in this project -->
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>config</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>utility</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>security</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>client</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>audit</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>dump</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>info</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>health</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>status</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>exception</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>body</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>header</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>mask</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>handler</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>metrics</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>sanitizer</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>traceability</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>correlation</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>switcher</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>registry</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>balance</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>consul</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>zookeeper</artifactId>
                 <version>${project.version}</version>
                 <optional>true</optional>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>cors</artifactId>
                 <version>${project.version}</version>
                 <optional>true</optional>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>cluster</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>limit</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>server</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!-- External dependencies -->
 
             <dependency>
-                <groupId>com.networknt</groupId>
+                <groupId>com.github.dineshalapati</groupId>
                 <artifactId>json-schema-validator</artifactId>
                 <version>${version.json-schema-validator}</version>
             </dependency>
@@ -512,6 +512,55 @@
                         <version>2.19.1</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>integration-test</id>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.9.1</version>
+                <executions>
+                    <execution>
+                        <id>add-test-source</id>
+                        <goals>
+                            <goal>add-test-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${project.basedir}\src\integration\java</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>add-test-resource</id>
+                        <goals>
+                            <goal>add-test-resource</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <!-- Don't forget <directory> label -->
+                                    <directory>${project.basedir}\src\integration\resources</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <!-- JACOCO added for code coverage -->
             <plugin>
