@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.networknt</groupId>
+        <groupId>com.github.dineshalapati</groupId>
         <artifactId>light-4j</artifactId>
         <version>1.5.0</version>
         <relativePath>..</relativePath>
@@ -31,31 +31,31 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>config</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>handler</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>utility</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>server</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>audit</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>client</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.networknt</groupId>
+            <groupId>com.github.dineshalapati</groupId>
             <artifactId>mask</artifactId>
         </dependency>
         <dependency>
