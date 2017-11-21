@@ -19,7 +19,8 @@ pipeline:
     commands:
       - mvn -Dmaven.test.failure.ignore clean package
 
-  # rebuild the cache in case new dependencies were downloaded during your build
+  # rebuild the cache in case new dependencies 
+  # were downloaded during your build
   rebuild-cache:
     image: drillster/drone-volume-cache
     rebuild: true
